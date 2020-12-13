@@ -1,0 +1,83 @@
+   <!-- ========== Left Sidebar Start ========== -->
+   <div class="left-side-menu">
+
+    <div class="slimscroll-menu">
+
+        <div class="d-flex flex-direction-column justify-content-between height100">
+
+
+            <!--- Sidemenu -->
+            <div id="sidebar-menu">
+
+                <ul class="metismenu" id="side-menu">
+
+
+                    <li>
+                        <a [routerLink]="['/main/dashboard']">
+                            <i class="mdi mdi-view-dashboard"></i>
+                            <span> Dashboard </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a [routerLink]="['/main/shipmentlist']">
+                            <i class="mdi mdi-view-dashboard"></i>
+                            <span> Shipments </span>
+                            <span class="badge badge-Light float-right"> 4390 </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a [routerLink]="['/main/allfleet']">
+                            <i class="mdi mdi-view-dashboard"></i>
+                            <span> Fleet Providers </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a [routerLink]="['/main/dashboard']">
+                            <i class="mdi mdi-view-dashboard"></i>
+                            <span> Reports </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a [routerLink]="['/main/RecieversListComponent']">
+                            <i class="mdi mdi-layers"></i>
+                            <span> Manage </span>
+                        </a>
+                        <ul class="nav-second-level" aria-expanded="false">
+                            <li><a [routerLink]="['/main/RecieversListComponent']"> 
+                                <i class="mdi mdi-layers"></i> Recievers</a></li>
+                                <li><a [routerLink]="['/main/UsersListComponent']">
+                                    <i class="mdi mdi-layers"></i>Users</a></li>
+                            <li><a [routerLink]="['/main/CompanySettingsComponent']"> 
+                                <i class="mdi mdi-layers"></i>Company Settings</a></li>
+                            <li><a [routerLink]="['/main/NotificationSettingsComponent']"> 
+                                <i class="mdi mdi-layers"></i>Notification Settings</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+            <!-- End Sidebar -->
+
+            <div class="clearfix"></div>
+
+            <div class="sidebar-left-bottom text-center">
+                <a class="btn create-new-shipment" [routerLink]="['/main/createshipment']"> <i class="fas fa-plus-circle"></i> Create New Shipment </a>
+
+                <hr>
+
+                <div class="powered-by">
+                    <img style="width:80% ; margin: auto;" class="img-fluid" src="assets/madar-logo-white.png">
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- Sidebar -left -->
+
+</div>
+<!-- Left Sidebar End -->
+
+

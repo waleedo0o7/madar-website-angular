@@ -1,0 +1,197 @@
+body .account-pages , body .stepper-layout , body .dashboard-layout{
+    direction: rtl;
+    text-align: right ;
+}
+
+div#wrapper .mr-2, div#wrapper .mx-2 {
+    margin-right:unset !important;
+    margin-left: .75rem !important;
+}
+
+.card-box.stepper-box.location {
+    text-align: center;
+}
+
+.steps-menu {
+    text-align: right;
+}
+
+.fa-chevron-left , .fa-chevron-right {
+    transform: rotate(180deg);
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.all-colors .one-color.main-color {
+    margin-right: 0 !important;
+    margin-left: 10px;
+}
+
+.all-colors {
+    width: 100% !important;
+}
+
+.colors-content .choose-color p {
+    padding-right: 0 !important;
+    padding-left: 25px !important;
+}
+
+div#wrapper  .text-right {
+    text-align: left !important;
+}
+div#wrapper  .text-left {
+    text-align: right !important;
+}
+
+div#wrapper .dropdown-menu {
+    text-align: right;
+}
+
+.input-group-text {
+    border-radius: .2rem 0 0 .2rem !important;
+}
+
+.select2-container .select2-selection--single .select2-selection__arrow {
+    right: unset;
+    left: 0;
+}
+
+.logo-box {
+    float: right !important;
+}
+
+.card-box.stepper-box.location svg {
+    margin-left: unset !important;
+}
+
+div#wrapper .float-right {
+    float: left !important;
+}
+
+div#wrapper .content-page {
+    margin-left: unset;
+    margin-right: 240px;
+}
+div#wrapper .left-side-menu {
+    left: unset;
+    right: 0;
+}
+
+.dashboard-layout .dashboard-card .left {
+    margin-right: 0 !important;
+    margin-left: 10px;
+}
+
+.sort-container {
+    direction: ltr !important;
+    text-align: left !important;
+}
+
+
+ul#myTab {
+    padding:0px !important;
+}
+
+.dashboard-layout .footer {
+    left: 0 !important;
+    right: 240px !important;
+}
+
+
+.dashboard-layout .one-card p.label-number {
+    left: unset;
+    right: -20px;
+}
+
+
+span.shadow-currency {
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    color: #b7b7b7;
+}
+
+span.shadow-currency {
+    position: absolute;
+    top: 9px;
+    right: unset;
+    left: 10px;
+    color: #b7b7b7;
+}
+
+
+.custom-control-label::before {
+    left: unset;
+    right: -1.5rem;
+}
+
+.custom-control.custom-radio {
+    padding-left: unset !important;
+    padding-right: 1.5rem;
+}
+
+.custom-control-label::after {
+    left: unset !important;
+    right: -1.5rem;
+}
+
+.access-channel .one-block .input-div {
+    right: 10px !important;
+}
+
+
+.p-dropdown .p-dropdown-clear-icon {
+    right: unset !important;
+    left: 2.357rem;
+}
+
+#sidebar-menu .menu-arrow {
+    left: 20px;
+    right: unset !important;
+    transform: rotate(180deg)  !important;
+}
+
+body  div#wrapper   .dropdown-menu-right {
+    right: auto !important;
+    left: 0 !important;
+}
+
+body  div#wrapper   .dropdown-menu-right {
+    right: auto !important;
+    left: 0 !important;
+}
+
+
+body  div#wrapper .dropdown-item {
+    display: block;
+    text-align: right;
+    direction: rtl !important;
+}
+
+
+body  div#wrapper .profile-dropdown i {
+    vertical-align: middle;
+    margin-right: 5px;
+    display: inline-block;
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+
+body  div#wrapper  .notification-list .notify-item .notify-icon {
+    float: right;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+body  div#wrapper  .notification-list .notify-item .user-msg {
+    margin-left: 0;
+    margin-right: 45px;
+}
+
+body  div#wrapper .notification-list .notify-item .notify-details {
+    margin-left: 0;
+    margin-right: 45px;
+}
